@@ -52,6 +52,8 @@ public class MainController {
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName("listado");
 		mav.addObject("studentList", this.students);
+		
+		return mav;
 	}
 	
 	
